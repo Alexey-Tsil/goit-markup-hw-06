@@ -1,11 +1,17 @@
-
+:root{
+    --main-font:'Roboto', sans-serif;
+    --second-font:'Raleway', sans-serif;
+    --accent-color:#2196F3;
+    --color-title:#212121;
+}
+/*=======Heder======*/
 .link-logo{
-font-family: 'Raleway', sans-serif;
+font-family:var(--second-font);
 font-weight: bold;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--accent-color);
 
 }
 .logo-span{
@@ -15,22 +21,152 @@ color: #2196F3;
 .link{
     text-decoration: none;
 }
+
 .nav-list-link{
-font-family: 'Roboto', sans-serif;
+font-family: var(--main-font);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--color-title);
 }
+
 .nav-list-link:hover,
 .nav-list-link:focus{
-    color:#2196F3 ;
+    color: var(--accent-color) ;
 }
-.phone-mail-link{
+
+body{
+    font-family:var(--main-font);
+    color: #757575;}
+   .phone-mail-link{
     color: #757575;
 }
+
 .phone-mail-link:hover,
 .phone-mail-link:focus{
-    color:#2196F3 ;
+    color: var(--accent-color);
 }
+/*==================End Heder==============*/
+/*===================Hero==================*/
+.hero-list{
+font-family:var(--main-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.hero{
+    background-color: #2F303A;
+}
+
+
+
+.hero-button{ 
+ font-family: var(--main-font);   
+font-weight: bold;
+font-size: 16px;
+line-height:1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+.hero-button{
+    cursor:pointer
+}
+.hero-button{ background-color: var(--accent-color);
+}
+/*==================Advantages==================*/
+.advantages-list-title{ 
+font-family:var(--main-font);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--color-title);
+
+}
+.advantages-list-text{
+font-family:var(--main-font);
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;  
+}
+/*===================END Advantages===============*/
+
+/*===================ABOUT=========================*/
+.about-title{
+font-family:var(--main-font);
+font-weight: bold;
+font-size: 36px;
+line-height:1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--color-title);
+}
+/*=================END ABOUT===============*/
+
+/*==================TEAM====================*/
+.team-title-caption {  
+font-family:var(--main-font);
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color:var(--color-title)
+
+
+}
+.team-title{
+font-family:var(--main-font)
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--color-title)
+  
+}
+.team-text{font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+/*=============END TEAM=====================*/
+
+/*=============FOOTER=======================*/
+.nav-list-link{
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--color-title);
+}
+
+.footer-link link{
+font-family: var(--main-font)
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+
+
+}
+/*===============END FOOTER===============*/
