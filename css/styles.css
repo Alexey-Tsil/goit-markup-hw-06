@@ -21,7 +21,9 @@ color: var(--accent-color);
 .link{
     text-decoration: none;
 }
-
+.list {
+    list-style: none;
+}
 .nav-list-link{
 font-family: var(--main-font);
 font-weight: 500;
@@ -35,7 +37,13 @@ color: var(--color-title);
 .nav-list-link:focus{
     color: var(--accent-color) ;
 }
+.nav-list-link.link.current{
+    color: var(--accent-color);
+}
 
+.menu-link.current{
+color: var(--accent-color);
+}
 body{
     font-family:var(--main-font);
     color: #757575;}
@@ -159,6 +167,9 @@ letter-spacing: 0.02em;
 color: var(--color-title);
 }
 
+.footer-address{font-style:normal ;
+
+}
 .footer-link link{
 font-family: var(--main-font)
 font-weight: normal;
