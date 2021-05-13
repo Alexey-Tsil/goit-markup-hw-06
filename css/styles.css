@@ -17,7 +17,13 @@ color: var(--accent-color);
 .logo-span{
     color: black;
 }
-
+.menu-item{
+     color: black;
+}
+.menu-item:hover,
+.menu-item:focus{
+color: var(--accent-color);
+} 
 .link{
     text-decoration: none;
 }
@@ -41,15 +47,12 @@ color: var(--color-title);
     color: var(--accent-color);
 }
 
-.menu-link.current{
-color: var(--accent-color);
-}
-body{
+.body{
     font-family:var(--main-font);
-    color: #757575;}
+   background-color: #FFFFFF; color:#757575;}
    .phone-mail-link{
-    color: #757575;
-}
+    color: #757575;}
+    
 
 .phone-mail-link:hover,
 .phone-mail-link:focus{
@@ -166,13 +169,34 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--color-title);
 }
+.gps{
+   color: #FFFFFF;
+}
+.gps:hover,
+.gps:focus{
+    color: var(--accent-color);
+}
+.footer-address
+{font-style:normal ;}
+.footer{
+    background-color:
+#2F303A;
+}
 
-.footer-address{font-style:normal ;
+.footer-list a {
+    color:rgba(255, 255, 255, 0.6);
+}
 
+.logo-end{color: #FFFFFF;
+
+}
+
+.footer-list a:focus,
+.footer-list a:hover{
+    color: var(--accent-color);
 }
 .footer-link link{
 font-family: var(--main-font)
-font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
