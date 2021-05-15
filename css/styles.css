@@ -4,6 +4,7 @@
     --accent-color:#2196F3;
     --color-title:#212121;
     --back-color:#F5F4FA;
+    --text-color:#757575;
 }
 /*=======Heder======*/
 .link-logo{
@@ -141,6 +142,26 @@ letter-spacing: 0.03em;
 color:var(--color-title);
 }
 /*=================END ABOUT===============*/
+.img-title{
+font-family:var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--color-title);
+} 
+.img-text{
+font-family:var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+
+color:var(--text-color);
+}
+
 
 /*==================TEAM====================*/
 .team-title-caption {  
