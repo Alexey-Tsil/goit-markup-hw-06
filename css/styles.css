@@ -55,12 +55,14 @@ color: var(--color-title);
     color: #757575;}
     
     .phone-mail-link{
-    font-family:var(--main-font)
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    color: #757575;
     }
 
 .phone-mail-link:hover,
@@ -217,7 +219,6 @@ font-family:var(--main-font);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-/* or 171% */
 
 letter-spacing: 0.03em;
 
