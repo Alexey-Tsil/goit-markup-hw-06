@@ -32,6 +32,7 @@ color: var(--accent-color);
 .list {
     list-style: none;
 }
+
 .nav-list-link{
 font-family: var(--main-font);
 font-weight: 500;
@@ -111,6 +112,7 @@ color: #FFFFFF;
 .botton:hover{
     color:var(--accent-color);
 }
+
 .botton{ background-color: var(--back-color);}
 /*==================Advantages==================*/
 .advantages-list-title{ 
@@ -234,11 +236,9 @@ color: var(--color-title);
 .footer-list a:hover{
     color: var(--accent-color);
 }
-.footer-item link{
-
-font-family:var(--main-font);
+.footer-link{
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
