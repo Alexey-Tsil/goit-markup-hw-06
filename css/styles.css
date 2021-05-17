@@ -61,7 +61,6 @@ padding-bottom: 25px;
     align-items: center;
 
 }
-
 .logo-span{
 
     color: black;
@@ -79,7 +78,10 @@ color: var(--accent-color);
 .list {
     list-style: none;
 }
-
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .nav-list-link{
 font-weight: 500;
 font-size: 14px;
@@ -140,18 +142,17 @@ color: #FFFFFF;
 }
 .hero{
     background-color: #2F303A;
+
 }
 
-
-
-.hero-button{    
-font-weight: bold;
-font-size: 16px;
-line-height:1.87;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+.hero-button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height:1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 
 color: #FFFFFF;
 }
