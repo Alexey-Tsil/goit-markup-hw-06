@@ -43,8 +43,8 @@
 }
 .header{
     background-color: var(--color-f);
-    padding-top:32px ;
-    padding-bottom: 32px;
+    padding-top:24px ;
+    padding-bottom: 25px;
    color: var(--color-title);
    
 }
@@ -61,6 +61,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--accent-color);
 display: block;
+margin-right: 93px;
 }
 .nav-list { 
     display: flex;
@@ -94,6 +95,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--color-title);
+padding-top: 10px;
+padding-bottom: 10px;
+
 }
 .nav-list-item:not(:last-child){
     margin-right: 50px;
@@ -177,7 +181,7 @@ fill:  Solid;
     font-size: 16px;
     line-height:1.87;
     color: #FFFFFF;
-    margin: 0 auto 200px ;
+    margin: 0 auto; 
     border-radius: 4px; 
     
 }
@@ -186,7 +190,7 @@ fill:  Solid;
 }
 .hero-button{ background-color: var(--accent-color);
    min-width:  200px;
-    height: 50px; 
+    min-height: 50px; 
     display: block;
 }
 .botton:focus,
@@ -216,18 +220,22 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--color-title);
-padding-bottom: 10px;
+margin-bottom: 10px;
 
 }
 
 .advantages-section{ 
     padding-top: 94px;
     padding-bottom:0px;
-    background-color:var(--color-about);
 }
 
 .advantages-list-item:not(:last-child){
     margin-right: 30px;
+
+}
+
+.advantages-list-item{
+    width: 270px;
 }
 
 .advantages-list{
@@ -257,7 +265,6 @@ letter-spacing: 0.03em;
 
 /*===================ABOUT=========================*/
 .about{
-    background-color:var(--color-about) ;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -322,7 +329,7 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--color-title);
-margin-bottom: 10px;
+margin-top: 30px;
   
 }
 .team-text{
@@ -332,7 +339,7 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-
+margin-top: 10px;
 }
 
 .team-section{
@@ -352,10 +359,11 @@ margin-left: -30px;}
 .team-item{ 
     margin-top: 30px;
     margin-left: 30px;
+    width: 270px;
 }
 
 .team-div{
-    padding: 10px 10px;
+    padding: 15px 0px;
 }
     
 }
@@ -369,7 +377,6 @@ margin-left: -30px;}
 .main-section{
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color:var(--color-about);
 }
 
 .botton-link-conteiner{
