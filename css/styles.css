@@ -38,7 +38,6 @@
 
 /*=============overlay==========*/
 .overlay{ 
-    height: 600px;
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
@@ -51,7 +50,8 @@
 }
 .svg{
     width: 16px;
-   height: 12px; 
+   height: 12px;
+   fill: currentColor; 
 
 }
 
@@ -194,7 +194,7 @@ line-height: 1.87;
 letter-spacing;: 6%
 fill:  Solid;
   color:ffffff;  
-  padding: 10px 32px;
+
 }
 .hero-button{
     font-weight: bold;
@@ -282,18 +282,19 @@ letter-spacing: 0.03em;
   overflow: hidden;
 }
 
-.advantages-icon-list{
+.advantages-icon{
+   width: 70px;
+   height: 70px;
+}
+
+.advantages-use{
+    height: 120px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;
 }
-
-
-    .advantages-svg{
-    width: 270px;
-   margin-right: 30px;
-    margin-bottom: 30px;
-}
-
+   
 
 /*===================END Advantages===============*/
 
@@ -403,6 +404,17 @@ margin-left: -30px;}
  
 .team-title-caption{margin-bottom: 50px;}
 
+.team-icon-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-icon-link{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    
+}
 
 /*=============END TEAM=====================*/
 
