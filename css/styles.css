@@ -293,6 +293,7 @@ letter-spacing: 0.03em;
     justify-content: center;
     align-items: center;
     background-color: #F5F4FA;
+    margin-bottom: 30px;
 }
    
 
@@ -388,20 +389,24 @@ margin-left: -30px;}
     margin-top: 30px;
     margin-left: 30px;
     width: 270px;
+    box-shadow:0px 2px 1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
-
 .team-div{
     padding-left: 32px;
     padding-right: 32px;
 }
     
-}
+
  
 .team-title-caption{margin-bottom: 50px;}
 
 .team-icon-list{
     display: flex;
    justify-content: space-between;
+   margin-bottom: 30px;
 }
 .team-icon{
     width: 20px;
@@ -434,9 +439,12 @@ margin-left: -30px;}
  fill:#FFFFFF;
 
 }
+
+.team-img{margin-bottom: 30px;}
 /*=============END TEAM=====================*/
 
 /*------------Client--------------*/
+
 .client-title{
 font-family:var(--main-font);
 font-style:700;
@@ -456,19 +464,40 @@ display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 94px;
 }
 .client-li:not(:last-child){margin-right: 30px;}
-.client-li{display: block;}
+
 .client-li {
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
     height: 92px;
+    width: 170px;
+}
+.client-li:focus,
+.client-li:hover{
+   border-color:  var(--accent-color);
+   
+}
+.client-link
+{
+    
 }
 .client-svg{
     width: 106px;
     height: 60px;
-    margin: 16px 32px;
+    margin: 16px 30px;
+    fill: #AFB1B8;
+}
+.client-svg:hover,
+.client-svg:focus{
+    fill: var(--accent-color);
 }
 .client-link{
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*==============main-section=================*/
 .main-section{
@@ -565,5 +594,44 @@ display: block;}
 .footer .link-logo{
     margin-bottom: 20px;
     margin-right: 0px;
+}
+.footer-link-list{
+    display: flex; 
+    align-items: center;
+}
+.team-icon-footer {
+    width: 20px;
+    height: 20px;
+    fill:var(--color-f);
+}
+.footer-link-title{
+font-family:var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+
+
+color: #FFFFFF;
+}
+.link-footer-svg{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.1);;
+}
+
+.link-footer-svg:focus,
+.link-footer-svg:hover{
+ background-color:  var(--accent-color);
+}
+.footer-div {
+    display: flex;
+   justify-content: center;
+
 }
 /*===============END FOOTER===============*/
