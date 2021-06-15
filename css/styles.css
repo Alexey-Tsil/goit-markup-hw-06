@@ -740,7 +740,7 @@ transition-property: background-color,fill;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.bacdrop .is-hidden{
+.bacdrop.is-hidden{
   opacity: 0;
   pointer-events: none;
 }
@@ -767,6 +767,7 @@ border-radius: 4px;
  align-items: center;
  justify-content: center;
  border-radius: 50%;
+ cursor: pointer;
  top: 8px;
  right: 8px;
   width: 30px;
