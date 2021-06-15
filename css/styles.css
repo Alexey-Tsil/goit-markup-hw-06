@@ -740,9 +740,10 @@ transition-property: background-color,fill;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.bacdrop.is-hidden{
+.is-hidden{
   opacity: 0;
   pointer-events: none;
+  visibility:hidden;
 }
 .modal{
 position: absolute;
