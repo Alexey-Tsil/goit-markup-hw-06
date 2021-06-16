@@ -126,14 +126,14 @@ img {
 .nav-list-link:focus {
   color: var(--accent-color);
 }
-.nav-list-link.link.current {
+.current {
   color: var(--accent-color);
   position: relative;
 }
-.nav-list-link::after{
+.current::after{
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -20px;
   display: block;
   content: "";
   height: 4px;
