@@ -36,19 +36,7 @@ img {
 }
 
 /*=============overlay==========*/
-.overlay {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/about/gpghero.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+
 .svg {
   width: 16px;
   height: 12px;
@@ -126,6 +114,7 @@ img {
 .nav-list-link:focus {
   color: var(--accent-color);
 }
+
 .current {
   color: var(--accent-color);
   position: relative;
@@ -187,6 +176,17 @@ img {
   background-color: #c4c4c4;
   min-height: 600px;
   padding-top: 200px;
+   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/about/gpghero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero .conteiner{
     text-align: center;
@@ -540,7 +540,7 @@ transition-property: background-color,fill;
   height: 92px;
   width: 170px;
   fill:#AFB1B8 ;
-  transition-property: background-color,fill;
+  transition-property: border-color,fill;
     transition-duration:var(--transition-duration);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -637,13 +637,7 @@ transition-property: background-color,fill;
 }
 
 /*=============FOOTER=======================*/
-.nav-list-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--color-title);
-}
+
 .gps {
   color: #ffffff;
    transition-property:color;
