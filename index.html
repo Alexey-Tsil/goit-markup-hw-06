@@ -515,6 +515,29 @@
         
       </svg>
     </button>
+    <form action="#" class="modal-form"></form>
+    <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
+
+    <lable class="modal-form-filed">
+      Имя
+      <input type="text" name="user-name" class="modal-form-input" required>
+    
+    </lable>
+
+    <lable class="modal-form-filed">
+      Телефон
+      <input type="tel"name="user-phone" class="modal-form-input"required>
+    </lable>
+
+    <lable class="modal-form-filed">
+     Почта
+      <input type="email" name="user-email"class="modal-form-input"required>
+    </lable>
+
+     <texteria name="user-coments" class="modal-form-coment">Комментарий</texteria>
+     <input name="user-policy" type="checkbox" class="modal-form-checkbox" id="checkbox-policy"required>
+     <lable for="checkbox-policy" class="modai-form-checkbox-policy">Соглашаюсь с рассылкой и принимаю <a class="modai-form-policy-link" href="">Условия договора</a></lable>
+     <button type="submit" class="modal-form-btn">Отправить</button>
    </div>
   </div>
   <script src="./js/modal.js"> 
