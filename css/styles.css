@@ -838,7 +838,7 @@ border-radius: 4px;
 }
  .modal-form-input:hover,
  .modal-form-input:focus{
-  : var(--accent-color);
+  color:  var(--accent-color);
 }
 .modal-form-btn{
   display: flex;
