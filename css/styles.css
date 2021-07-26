@@ -892,3 +892,19 @@ color: #757575;
   border-radius: 4px;
  
 }
+
+.modal-form-text-coment{
+  width: 100%;
+  margin-top: 6px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 12px 16px;
+  resize: none;
+}
+.modal-form-text-coment:focus,
+.modal-form-text-coment:hover{
+  outline: none;
+  border-color: var(--accent-color);
+  transition: fill 250ms linear;
+}
