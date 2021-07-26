@@ -809,6 +809,10 @@ border-radius: 4px;
   box-sizing: border-box;
 }
 
+.data-modal-button:hover,
+.data-modal-button:focus{
+  fill: var(--accent-color);
+}
 .modal-form-head{
   font-family: var(--main-font);
   font-weight: 700;
@@ -834,14 +838,14 @@ border-radius: 4px;
   box-sizing: border-box;
   border-radius: 4px; 
   padding-left: 42px;
-   
+  border-color: 250ms ;
 }
- 
+ .modal-form-input:hover,
  .modal-form-input:focus{
   border-color:  var(--accent-color);
   outline: none;
 }
-
+.modal-form-input:hover+.modal-user-svg,
 .modal-form-input:focus+.modal-user-svg {
   fill:var(--accent-color) ;
 }
@@ -866,6 +870,7 @@ color: #757575;
   position: absolute;
   top: 50%; ;
   left:12px ;
+  transition: fill 250ms linear;
   transform: translateY(-50%);
   width: 18px;
   height: 18px;
