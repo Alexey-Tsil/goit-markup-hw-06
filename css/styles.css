@@ -876,14 +876,7 @@ color: #757575;
   height: 18px;
 }
 .modal-form-coment{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-
-color: #757575;
+ 
   
   
 }
@@ -903,14 +896,13 @@ color: #757575;
 }
 
 .modal-form-text-coment{
-  font-family: Roboto;
+font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 12px;
-line-height: 14px;
+font-size: 14px;
+line-height: 16px;
 letter-spacing: 0.01em;
 
-color: rgba(117, 117, 117, 0.5);
 
   width: 100%;
   margin-top: 6px;
@@ -926,4 +918,8 @@ color: rgba(117, 117, 117, 0.5);
   outline: none;
   border-color: var(--accent-color);
   transition: fill 250ms linear;
+}
+
+.modal-form-text-coment::placeholder{
+  color: rgba(117, 117, 117, 0.5);
 }
