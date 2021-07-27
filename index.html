@@ -515,7 +515,7 @@
         
       </svg>
     </button>
-    <form action="#" class="modal-form"></form>
+    <form action="#" class="modal-form">
     <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
 
     <lable class="modal-form-filed">
@@ -533,7 +533,7 @@
     <lable class="modal-form-filed">
       Телефон
       <span class="modal-form-input-wrapper">
-        <input type="tel" name="user-phone" class="modal-form-input"pattern="[0-9]{3}[0-9]{3}][0-9]{2}[0-9]{2}"title="096-000-00-00" required>
+        <input type="tel" name="user-phone" class="modal-form-input" pattern="[0-9]{3}[0-9]{3}][0-9]{2}[0-9]{2}"title="096-000-00-00" required>
         <svg class="modal-user-svg">
           <use href="./images/sprite.svg.svg#icon-phone-black"></use>
         </svg>
@@ -551,7 +551,7 @@
     </lable>
     <label class="modal-form-coment"> 
       Комментарий
-      <textarea name="user-coments" class="modal-form-text-coment"></textarea>
+      <textarea name="user-coments" class="modal-form-text-coment"placeholder="Введите текст"></textarea>
 
 
     </label>
@@ -563,6 +563,7 @@
      <button type="submit" class="modal-form-btn">Отправить</button>
    </div>
   </div>
+  </form>
   <script src="./js/modal.js"> 
   </script>
 </body>
